@@ -22,7 +22,7 @@ These scripts explore the general growth and ratio of $r$ and $z$ as string leng
 ### 2. Lemma & Corollary Verifications
 These scripts test specific mathematical lemmas and corollaries related to the $r$ bounded by $z \log^2 n$ proof.
 
-* **`smBound.py`**: Verifies Lemma 3.1 regarding the number of unique length-$m$ cyclic substrings ($|S_m|$). It tests the claim that $|S_m| \le m \cdot z$.
+* **`smBound.py`**: Verifies Lemma 3.1 regarding the number of unique length - $m$ cyclic substrings ($|S_m|$). It tests the claim that $|S_m| \le m \cdot z$.
     * *Outputs:* `smBound.csv`
 * **`smBound_plot.py`**: Reads `smBound.csv` to visualize the substring bounds.
 * **`lem3_1_lcp.py`**: Another facet of Lemma 3.1, examining the distribution of irreducible Longest Common Prefix (LCP) values binned into powers of 2.
